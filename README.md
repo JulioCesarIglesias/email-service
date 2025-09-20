@@ -97,4 +97,4 @@ curl -X POST http://localhost:8080/api/email \
 Sinta-se à vontade para **abrir issues** ou **enviar pull requests** para melhorar este projeto.
 
 **Autor:** Júlio César Iglesias – Estudante e entusiasta de **backend com Spring**  
-[LinkedIn](https://www.linkedin.com/in/julio-cesar-iglesias/) | [GitHub](https://github.com/JulioCesarIglesias)
+[LinkedIn](https://www.linkedin.com/in/juliocesariglesiasdev/) | [GitHub](https://github.com/JulioCesarIglesias)
