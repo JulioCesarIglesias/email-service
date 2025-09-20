@@ -7,7 +7,7 @@
 
 Este projeto é um **serviço de backend para envio de e-mails**, desenvolvido como solução para o desafio de codificação da Uber, **"Email Service"**. O desenvolvimento foi baseado em uma videoaula da **Fernanda Kipper** ([link do vídeo](https://www.youtube.com/watch?v=eFgeO9M9lLw&list=PLNCSWIsR6ADKaT1cO6XUJkRy0_v9p-h0Z)), que demonstra a solução para o desafio original ([link do desafio](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md)).
 
-A arquitetura do projeto segue o padrão de **Clean Architecture**, dividindo a aplicação em camadas distintas para garantir **modularidade, testabilidade e separação de responsabilidades**. O serviço utiliza o **Amazon Simple Email Service (SES)** para envio de e-mails, integrando-se com a AWS para um gerenciamento eficiente e escalável das comunicações por e-mail.
+A arquitetura do projeto segue o padrão de **Hexagonal Architecture (Ports & Adapters)**, dividindo a aplicação em **camadas separadas de domínio, aplicação e infraestrutura**, para garantir **modularidade, testabilidade e separação de responsabilidades**. O serviço utiliza o **Amazon Simple Email Service (SES)** para envio de e-mails, integrando-se com a AWS para um gerenciamento eficiente e escalável das comunicações por e-mail.
 
 ## 🛠 Tecnologias Utilizadas
 - **Java 21**
